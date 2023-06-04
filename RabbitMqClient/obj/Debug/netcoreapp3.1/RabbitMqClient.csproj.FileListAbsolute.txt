@@ -1,0 +1,9 @@
+D:\Documentos\GitHub\ChatProject\RabbitMqClient\bin\Debug\netcoreapp3.1\RabbitMqClient.deps.json
+D:\Documentos\GitHub\ChatProject\RabbitMqClient\bin\Debug\netcoreapp3.1\RabbitMqClient.dll
+D:\Documentos\GitHub\ChatProject\RabbitMqClient\bin\Debug\netcoreapp3.1\RabbitMqClient.pdb
+D:\Documentos\GitHub\ChatProject\RabbitMqClient\obj\Debug\netcoreapp3.1\RabbitMqClient.AssemblyInfoInputs.cache
+D:\Documentos\GitHub\ChatProject\RabbitMqClient\obj\Debug\netcoreapp3.1\RabbitMqClient.AssemblyInfo.cs
+D:\Documentos\GitHub\ChatProject\RabbitMqClient\obj\Debug\netcoreapp3.1\RabbitMqClient.csproj.CoreCompileInputs.cache
+D:\Documentos\GitHub\ChatProject\RabbitMqClient\obj\Debug\netcoreapp3.1\RabbitMqClient.dll
+D:\Documentos\GitHub\ChatProject\RabbitMqClient\obj\Debug\netcoreapp3.1\RabbitMqClient.pdb
+D:\Documentos\GitHub\ChatProject\RabbitMqClient\obj\Debug\netcoreapp3.1\RabbitMqClient.csprojAssemblyReference.cache

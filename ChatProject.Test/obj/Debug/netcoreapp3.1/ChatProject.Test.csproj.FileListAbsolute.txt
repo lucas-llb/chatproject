@@ -1,0 +1,4 @@
+D:\Documentos\GitHub\ChatProject\ChatProject.Test\obj\Debug\netcoreapp3.1\ChatProject.Test.csprojAssemblyReference.cache
+D:\Documentos\GitHub\ChatProject\ChatProject.Test\obj\Debug\netcoreapp3.1\ChatProject.Test.AssemblyInfoInputs.cache
+D:\Documentos\GitHub\ChatProject\ChatProject.Test\obj\Debug\netcoreapp3.1\ChatProject.Test.AssemblyInfo.cs
+D:\Documentos\GitHub\ChatProject\ChatProject.Test\obj\Debug\netcoreapp3.1\ChatProject.Test.csproj.CoreCompileInputs.cache

@@ -1,0 +1,172 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Documentos\\GitHub\\ChatProject\\RabbitMqClientTest\\RabbitMqClient.Test.csproj": {}
+  },
+  "projects": {
+    "D:\\Documentos\\GitHub\\ChatProject\\RabbitMqClientTest\\RabbitMqClient.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documentos\\GitHub\\ChatProject\\RabbitMqClientTest\\RabbitMqClient.Test.csproj",
+        "projectName": "RabbitMqClient.Test",
+        "projectPath": "D:\\Documentos\\GitHub\\ChatProject\\RabbitMqClientTest\\RabbitMqClient.Test.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "D:\\Documentos\\GitHub\\ChatProject\\RabbitMqClientTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Documentos\\GitHub\\ChatProject\\RabbitMqClient\\RabbitMqClient.csproj": {
+                "projectPath": "D:\\Documentos\\GitHub\\ChatProject\\RabbitMqClient\\RabbitMqClient.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.11.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.console": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Documentos\\GitHub\\ChatProject\\RabbitMqClient\\RabbitMqClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documentos\\GitHub\\ChatProject\\RabbitMqClient\\RabbitMqClient.csproj",
+        "projectName": "RabbitMqClient",
+        "projectPath": "D:\\Documentos\\GitHub\\ChatProject\\RabbitMqClient\\RabbitMqClient.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "D:\\Documentos\\GitHub\\ChatProject\\RabbitMqClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<head>
+    <title>MiniChat</title>
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <div class="text-center">
+        <h1 class="display-4">Welcome to my Chat</h1>
+    </div>
+    <div class="container">
+        <div> Joined as : <b><span id="username">@Html.ViewContext.HttpContext.User.Identity.Name</span></b></div>
+        <hr />
+        <div class="row">
+            <div class="col-10">
+                <ul id="messageList"></ul>
+            </div>
+        </div>
+        <hr />
+        <input type="text" id="message" autocomplete="off" />
+        <input type="button" id="sendButton" value="Send Message" />
+    </div>
+
+    <script>
+        var userName = "Lucas";
+        setInterval(function () {
+                $.ajax({
+                    type: "GET",
+                    contentType: "application/json; charset=utf-8",
+                    data: '',
+                    url: "@Url.Action("ReceiveMessage", "Chat", new { stock = "appl.us" })",
+                    dataType: "json",
+                    success: function (response) {
+                        if (response != null) {
+                            var messageListCount = document.getElementById("messageList").childElementCount;
+
+                            if (messageListCount >= 50) {
+                                document.getElementById("messageList").children.item(0).remove();
+                            }
+                            var li = document.createElement("li");
+                            li.textContent = response;
+                            document.getElementById("messageList").appendChild(li);
+                        }
+                    },
+                    error: function (response) {
+
+                    }
+                });
+            }, 5000);
+
+        function send() {
+            var message = document.getElementById("message").value;
+                $.ajax({
+                    type: "POST",
+                    contentType: "application/json; charset=utf-8",
+                    data: '{"message":"' + message + '"}',
+                    url: "@Url.Action("SendMessage", "Chat", new { stock = "appl.us"})",
+                    dataType: "json",
+                    success: function (response) {
+                        //$("#divmsg").html(data + "<br>Me :" + message);
+                        document.getElementById("message").value = "";
+                    },
+                    error: function (response) {
+                        console.log(response)
+                    }
+                });
+        };
+
+        document.getElementById("sendButton").addEventListener("click", function (event) {
+            send();
+            event.preventDefault();
+        });
+
+    </script>
+</body>
+

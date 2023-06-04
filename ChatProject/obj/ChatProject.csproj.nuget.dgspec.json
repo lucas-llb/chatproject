@@ -1,0 +1,250 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Documentos\\GitHub\\ChatProject\\ChatProject\\ChatProject.csproj": {}
+  },
+  "projects": {
+    "D:\\Documentos\\GitHub\\ChatProject\\ChatBot\\ChatBot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documentos\\GitHub\\ChatProject\\ChatBot\\ChatBot.csproj",
+        "projectName": "ChatBot",
+        "projectPath": "D:\\Documentos\\GitHub\\ChatProject\\ChatBot\\ChatBot.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "D:\\Documentos\\GitHub\\ChatProject\\ChatBot\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Documentos\\GitHub\\ChatProject\\RabbitMqClient\\RabbitMqClient.csproj": {
+                "projectPath": "D:\\Documentos\\GitHub\\ChatProject\\RabbitMqClient\\RabbitMqClient.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.6.2, )"
+            },
+            "Quartz.AspNetCore": {
+              "target": "Package",
+              "version": "[3.6.2, )"
+            },
+            "Quartz.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.6.2, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Documentos\\GitHub\\ChatProject\\ChatProject\\ChatProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documentos\\GitHub\\ChatProject\\ChatProject\\ChatProject.csproj",
+        "projectName": "ChatProject",
+        "projectPath": "D:\\Documentos\\GitHub\\ChatProject\\ChatProject\\ChatProject.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "D:\\Documentos\\GitHub\\ChatProject\\ChatProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Documentos\\GitHub\\ChatProject\\ChatBot\\ChatBot.csproj": {
+                "projectPath": "D:\\Documentos\\GitHub\\ChatProject\\ChatBot\\ChatBot.csproj"
+              },
+              "D:\\Documentos\\GitHub\\ChatProject\\RabbitMqClient\\RabbitMqClient.csproj": {
+                "projectPath": "D:\\Documentos\\GitHub\\ChatProject\\RabbitMqClient\\RabbitMqClient.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNet.SignalR": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Documentos\\GitHub\\ChatProject\\RabbitMqClient\\RabbitMqClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documentos\\GitHub\\ChatProject\\RabbitMqClient\\RabbitMqClient.csproj",
+        "projectName": "RabbitMqClient",
+        "projectPath": "D:\\Documentos\\GitHub\\ChatProject\\RabbitMqClient\\RabbitMqClient.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "D:\\Documentos\\GitHub\\ChatProject\\RabbitMqClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+D:\Documentos\GitHub\ChatProject\ChatBot\bin\Debug\netcoreapp3.1\ChatBot.deps.json
+D:\Documentos\GitHub\ChatProject\ChatBot\bin\Debug\netcoreapp3.1\ChatBot.dll
+D:\Documentos\GitHub\ChatProject\ChatBot\bin\Debug\netcoreapp3.1\ChatBot.pdb
+D:\Documentos\GitHub\ChatProject\ChatBot\bin\Debug\netcoreapp3.1\RabbitMqClient.dll
+D:\Documentos\GitHub\ChatProject\ChatBot\bin\Debug\netcoreapp3.1\RabbitMqClient.pdb
+D:\Documentos\GitHub\ChatProject\ChatBot\obj\Debug\netcoreapp3.1\ChatBot.csprojAssemblyReference.cache
+D:\Documentos\GitHub\ChatProject\ChatBot\obj\Debug\netcoreapp3.1\ChatBot.AssemblyInfoInputs.cache
+D:\Documentos\GitHub\ChatProject\ChatBot\obj\Debug\netcoreapp3.1\ChatBot.AssemblyInfo.cs
+D:\Documentos\GitHub\ChatProject\ChatBot\obj\Debug\netcoreapp3.1\ChatBot.csproj.CoreCompileInputs.cache
+D:\Documentos\GitHub\ChatProject\ChatBot\obj\Debug\netcoreapp3.1\ChatBot.csproj.CopyComplete
+D:\Documentos\GitHub\ChatProject\ChatBot\obj\Debug\netcoreapp3.1\ChatBot.dll
+D:\Documentos\GitHub\ChatProject\ChatBot\obj\Debug\netcoreapp3.1\ChatBot.pdb
